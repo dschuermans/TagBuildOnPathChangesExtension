@@ -7,8 +7,8 @@ If changes are made to the API or the DAL, you want to add a tag "Backend".
 Consequently, if changes are made to the frontend application, you want to tag the build with "Frontend"  
 
 This can be achieved by adding 2 tasks to your build flow and configuring them as follows:
-![alt text](screenshots/backend.png "Tag with backend example")
-![alt text](screenshots/frontend.png "Tag with frontend example")
+![alt text](./screenshots/backend.png "Tag with backend example")
+![alt text](./screenshots/frontend.png "Tag with frontend example")
 
 ## Further reading
 More information about this can be found in my [blog post](http://dirk.schuermans.me/?p=817) (from before it was an extension)

@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "TagBuildOnPathChanges",
     "name": "Tag build on path changes",
-    "version": "1.0.9",
+    "version": "1.0.10",
     "publisher": "dschuermans",
     "public": true,
     "targets": [

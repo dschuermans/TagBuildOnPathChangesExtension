@@ -1,0 +1,64 @@
+{
+    "manifestVersion": 1,
+    "id": "TagBuildOnPathChanges",
+    "name": "Tag build on path changes",
+    "version": "1.0.9",
+    "publisher": "dschuermans",
+    "public": true,
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],    
+    "description": "Tag a build when changes have been made in certain paths",
+    "categories": [
+        "Build and release"
+    ],
+    "links": {
+        "support": { "uri": "https://github.com/dschuermans/TagBuildOnPathChangesExtension/issues" },
+        "repository": { "uri": "https://github.com/dschuermans/TagBuildOnPathChangesExtension" }
+    },
+    "tags": [
+        "nuget",
+        "nuget-powertool",
+        "nupkgwrench",
+        "versioning"
+    ],
+    "repository": {
+        "type": "git",
+        "uri": "https://github.com/dschuermans/TagBuildOnPathChangesExtension"
+    },
+    "content": {
+        "details": {
+            "path": "readme.md"
+        }
+    },
+    "icons": {
+        "default": "tag.png"        
+    },
+    "files": [
+        {
+            "path": "TagBuildOnPathChanges"
+        }
+    ],
+    "contributions": [
+        {
+            "id": "TagBuildOnPathChanges",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "TagBuildOnPathChanges"
+            }
+        }
+    ],
+    "screenshots": [
+        {
+            "path": "screenshots/backend.png"
+        },
+        {
+            "path": "screenshots/frontend.png"
+        }
+    ]
+}
